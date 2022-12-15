@@ -7,7 +7,7 @@ export function makeNotification(override?: Override) {
   return new Notification({
     category: 'social',
     content: new Content('New friend request.'),
-    recipientId: 'recipiend-2',
+    recipientId: 'recipient-2',
     ...override
   })
 }
